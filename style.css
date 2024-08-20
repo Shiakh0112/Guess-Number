@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+#wrapper {
+  margin: auto;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+
+#guess {
+  font-size: 50px;
+}
+
+label,
+input {
+  margin: 20px 2px;
+}
+
+#subt {
+  width: 50%;
+  margin: 20px auto;
+  padding: 6px;
+}
+#newGame {
+  background-color: #a9f8c6bd;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: rgb(4, 89, 4);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-family: system-ui, sans-serif;
+  margin: 20px 0px;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  transition: 0.8s;
+}
+
+#newGam:hover {
+  box-shadow: rgba(53, 51, 51, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  background-color: rgba(84, 255, 84, 0.666);
+  color: black;
+  transform: scale(1.05) rotate(-1deg);
+}
